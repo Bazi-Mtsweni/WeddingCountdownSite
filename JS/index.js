@@ -36,7 +36,7 @@ const countdown = () => {
     document.querySelector(".days").innerText = dayText;
   }
   
-
+  //notifier
   if (hourText === 14 && secondText > 58) {
     Push.create("10 Days Left", {
         icon: "/Images/Untitled-1.png",
