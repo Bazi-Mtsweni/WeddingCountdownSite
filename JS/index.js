@@ -37,7 +37,7 @@ const countdown = () => {
   }
   
   //notifier
-  if (hourText === 14 && secondText > 58) {
+  if (minuteText === 01 && secondText > 58) {
     Push.create("10 Days Left", {
         icon: "/Images/Untitled-1.png",
       body: "Thabiso & Thandeka get married in 10 days!! Join them on their special day💍",
